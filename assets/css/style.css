@@ -3380,7 +3380,8 @@ h6 a {
 }
 
 .pt-100 {
-  padding-block-start: 100px !important;
+  padding: 150px 200px 150px 200px;
+  
 }
 
 .pb-100 {
@@ -9010,9 +9011,7 @@ textarea:focus-within {
 }
 
 .blog-details__item-inner {
-  background-color: var(--wh-color);
-  box-shadow: 0px -16px 48px rgba(6, 35, 63, 0.03), 0px 16px 48px rgba(6, 35, 63, 0.03);
-  border-radius: 4px;
+  border-radius:4px;
 }
 @media (min-width: 768px) {
   .blog-details__item-inner {
@@ -9064,6 +9063,11 @@ textarea:focus-within {
 .blog-details__meta ul li a {
   color: var(--text-color-light);
 }
+.blog-container{
+  margin: 100px;
+  padding: 400px;
+
+}
 .blog-details__meta ul li i,
 .blog-details__meta ul li svg {
   margin-inline-end: 8px;
@@ -9111,6 +9115,8 @@ textarea:focus-within {
 @media (min-width: 1200px) {
   .testimonial__item-content p {
     padding-bottom: 32px;
+    
+    
   }
 }
 .testimonial__item--style1 .testimonial__item-inner {

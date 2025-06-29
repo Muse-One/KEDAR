@@ -8013,14 +8013,7 @@ textarea:focus-within {
     -webkit-box-orient: vertical;
   }
 }
-.service__item--style1 .service__item-inner {
-  background: linear-gradient(152deg, var(--bg-color-trans) 0%);
-  border: 2px solid var(--service-item-border-color);
-}
 
-.service__item--style1:hover .service__item-thumb {
-  background-color: var(--wh-color);
-}
 .service__item--style1:hover .service__item-content h5 a {
   color: var(--title-color);
 }
